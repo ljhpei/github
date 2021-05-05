@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<style>
+    #grad{
+    height:55px;
+    background-color:red;
+    background-image:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    }
+</style>
+<div id="grad" style="text-align:center;mragin:auto;clolr:#888888;font-size:40px;font-weight:bold">FIRST HTML
+</div>
+<h1 align="center">FIRST html</h1>
+
+<a href="#first"style="text-decoration:none">导航</a>
+<br>
+<a href="#first"style="text-decoration:none">一些技巧</a>
+<br>
+<a href="#first"style="text-decoration:none">转到页面的底部</a>
+<br>
+<a href="https://fanyi.baidu.com/" style="text-decoration:none">百度翻译</a>
+<a href="https://zhihu.com" style="text-decoration:none">知乎</a>
+<br>
+<a href="http://www.sse.com.cn/market/stockdata/overview/day/" style="text-decoration:none">股票成交概况 | 上海证券交易所</a>
+<br>
+<a href="http://www.szse.cn/market/stock/indicator/index.html" style="text-decoration:none">深圳证券交易所-基本指标</a>
+<br>
+<a href="http://www.drc.gov.cn/" style="text-decoration:none">国务院发展研究中心</a>
+<br>
+<a href="http://www.gov.cn/index.htm" style="text-decoration:none">中国政府网_中央人民政府门户网站</a>
+<br>
+<a href="https://github.com/ngosang/trackerslist/blob/master/trackers_all.txt" style="text-decoration:none">trackerslist/trackers_all.txt at master · ngosang/trackerslist · GitHub</a>
+
+<ul>
+    <li><b>粗体</b></li>
+    <li> <em>着重</em></li>
+    <li><i>斜体</i></li>
+    <li><small>小号</small></li>
+    <li><storng>加重语气</storng></li>
+    <li><del>删除</del></li>
+    <li><code>定义计算机代码文本</code></li>
+    <li><samp>定义样本文本</samp></li>
+    <li><int cite=".html",datetime="2020-03-01T12:12:12Z">插入</int></li>
+    <li><kbd>定义键盘文本，它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中</kbd></li>
+    <li></li>
+</ul>
+
+<br>
+<!--<var>定义变量，可与<pre>及<code>配合使用</var>-->
+<br>
+<cite>The screamby ljh in 1983.</cite>
+<br>
+
+<table broder="1">
+    <tr>
+        <th>January <dialog open>This is an open dialog window</dialog></th>
+        <th>February</th>
+        <th>March</th>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>28</td>
+        <td>31</td>
+    </tr>
+</table>
+
+<div style="color:#0000FF">
+    <h2 align="left">div是啥?</h2>
+    <h2 align="right">div有什么用?</h2>
+    <h2 align="center">1.DIV元素是块级元素,在其前后显示折行.</h2>
+    <h2 align="center">2.如果与 CSS 一同使用，div 元素可用于对大的内容块设置样式属性。</h2>
+    <h2 align="center">3.另一个常见的用途是文档布局。它取代了使用表格定义布局的老式方法。</h2>
+</div>
+
+
+
+
+<a href="https://www.zhihu.com/#tips" target="_blank"><img border="0" src="000.jpg" width="700" height="1050"></a>
+<hr>
+<a id="tips">tips</a>----这个啥用？
+
+the<abbr title="world health organization"> WHO </abbr>is founded in 1948.---缩写与全称
+
+<dfn>定义项目</dfn>
+
+<div style="opacity:0.5;position:absolute;left:50px;width:300px;height:150px;background-color:#40B3DF"></div>
+
+<div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;">
+
+<div style="opacity:0.3;position:absolute;left:120px;width:333px;height:123px;background-color:#8AC007"></div>
+
+<h3>Look! Styles and colors</h3>
+
+<div style="letter-spacing:12px;">Manipulate Text</div>
+
+<div style="color:#40B3DF;">Colors
+<span style="background-color:#B4009E;color:#ffffff;">Boxes</span>
+</div>
+
+<div style="color:#000000;">and more...</div>
+
+</div>
+
+
+<button onclick="addNewTextTrack()" type="button">添加一个新的文本轨道：</button>
+<br>
+<video id="video1" controls="controls">
+  <source src="48个音标的美式发音.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+</video>
+
+<script>
+myVid=document.getElementById("video1");
+function addNewTextTrack()
+{
+  text1=myVid.addTextTrack("caption");
+  text1.addCue(new TextTrackCue("Test text", 01.000, 04.000,"","","",true));
+}
+</script>
+
+<p>Video courtesy of <a href="//www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+
+
+
+
+
+
+
+
+
+<a id="first">底在这里</a>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,css,xml,xhtml,javascript">
+    <meta name="description说明" content="免费 web&编程 教程">
+    <meta name="author" content="ljh">
+    <meta http-equiv="refresh" content="99">
+    <script>document.write("hello 007")</script>
+    <title>任务栏、标签名</title>
+</head>
+</html>
+
+<br> 就是没有关闭标签的空元素.
+在未来版本的 HTML 中，所有元素都必须被关闭。
+在开始标签中添加斜杠，比如 <br />，是关闭空元素的正确方法。
+所以，使用 <br /> 其实是更长远的保障。
+
+<cite>标签还有一个隐藏功能：
+    它可以使你从文档中自动摘录参考书目。
+    可以很容易想象一个浏览器，它能够自动整理引用表格，并把它们作为脚注或者独立的文档来显示。
